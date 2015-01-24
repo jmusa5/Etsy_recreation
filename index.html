@@ -1,0 +1,80 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="main.css">
+<title>HW10 - Etsy Recreation</title>
+</head>
+
+<body>
+<h1>Gorrila</h1>
+
+<div class="gorilla-list">
+  <div class="item" id="itempic" img src=""></div>
+  <div class="item" id="like"></div>
+  <div class="item" id="list"></div>
+  <div class="item" id="description"></div>
+  <div class="item" id="maker"></div>
+  <div class="item" id="price"></div>
+
+</div>
+
+
+
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+
+<script type="text/template" data-template-name="gorillaResults">
+
+</script>
+
+
+<script type="text/javascript" src="data.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <title>HW10 - Etsy Recreation</title>
+</head>
+
+<body>
+
+  <div id="header-nav"></div>
+
+  <div class="content"><h1>Crazy Apes</h1>
+
+    <ul class="gorillas-list"></ul>
+
+
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+
+    <script type="text/template" data-template-name="chimpResults">
+      <div class="container">
+        <div class="item">
+          <div><img src="<% images %>" title="<% description %>"></div>
+          <div><a href="<% url %>"><p class="ellipsis"><% title %></p></a></div>
+          <div>$<% price %> <% currency %></div>
+          <div><% shop %></div>
+        </div>
+      </div>
+
+    </script>
+
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+  </div>
+
+</body>
+
+</html>

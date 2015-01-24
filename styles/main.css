@@ -1,0 +1,17 @@
+body {
+  margin: 0 auto;
+
+
+}
+  .item {
+    font-family: "arial", "Helvetica", sans-serif;
+    font-size: 12px;
+    list-style: none;
+    background:#fff;
+    position: relative;
+    border:1px solid #ececec;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    height: 220px;
+
+  }
