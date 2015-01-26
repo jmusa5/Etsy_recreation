@@ -2,19 +2,23 @@
   'use strict';
 
 
-  var gorillas = rawGorillaData.results; // figure out what i need here using the console.
+  var results = rawGorillaData.results; // figure out what i need here using the console.
 
   $(document).ready(function(){ // runs the function on document ready
 
-    var $list = $('.gorillas-list'); // targets div with class gorilla in the html
+    var $list = $('.results-list'); // targets div with class gorilla in the html
 
-    gorillas.forEach(function(gorilla){
-      var gorrilaText = renderTemplate('gorillaResults', {
-        name: gorilla.name,
-        price: gorilla.price
+    results.forEach(function(gorilla){
+      var gorillaText = renderTemplate('gorilla-item', {
+        name: gorilla.title,
+        price: gorilla.price,
+        image: gorilla.Images[0].url_170x135,
+        currency: gorilla.currency_code,
+        shop: gorilla.Shop.shop_name,
       });
-      $list.append('gorillaText');
+      $list.append(gorillaText);
     });
+  });
 
     function renderTemplate(name, data) {
       var $template = $('[data-template-name=' + name + ']').text();
@@ -24,5 +28,4 @@
       return $template;
     }
 
-  });
 })();
