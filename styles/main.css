@@ -8,6 +8,13 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
 
+.logo {
+  display: block;
+  width: 100px;
+  height: 100%;
+  font-size: 50px;
+  color: #D15928; }
+
 ul {
   padding: 0;
   list-style: none; }
@@ -41,5 +48,14 @@ ul {
   background: #fff;
   padding: 5px;
   box-shadow: 0 0 30px -10px #999; }
+
+.price {
+  display: block;
+  float: right;
+  text-align: right;
+  color: #D15928; }
+
+.shop {
+  color: #B2C2DA; }
 
 /*# sourceMappingURL=main.css.map */
