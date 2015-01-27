@@ -8,12 +8,23 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
 
+body {
+  margin: auto 0;
+  backgound-color: #F5F5F1; }
+
 .logo {
   display: block;
   width: 100px;
   height: 100%;
   font-size: 50px;
-  color: #D15928; }
+  color: #D15928;
+  margin: auto 0; }
+
+#search {
+  position: relative;
+  height: 20px;
+  width: 150px;
+  margin-left: 20px; }
 
 ul {
   padding: 0;

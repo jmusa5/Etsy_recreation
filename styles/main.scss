@@ -3,6 +3,10 @@ $visual-grid: false;
 @import 'neat/neat';
 
 
+body {
+  margin: auto 0;
+  backgound-color: #F5F5F1;
+}
 
 
 .logo {
@@ -11,6 +15,14 @@ $visual-grid: false;
   height: 100%;
   font-size: 50px;
   color: #D15928;
+  margin: auto 0;
+}
+
+#search {
+  position: relative;
+  height: 20px;
+  width: 150px;
+  margin-left: 20px;
 }
 
 ul {
