@@ -48,15 +48,28 @@
 
 <body>
   <div class = "logo">Etsy</div>
+
+  <!-- <div class="search-browse-wrapper">
+    <div class="search-browse-inner with-pointer">
+      <form id="gnav-search" class="search-nav expanded-search apply-nav-height" method="GET" action="/search.php" facet-path="">
+        <div class="gnav-search-inner clearable">
+          <div class="search-input-wrapper text-field-wrapper">
+            <input id="search-query" class="search-input" type="text" placeholder="Search for items or shops" name="search_query" value="gorilla" autocomplete="off" autocorrect="off" autocapitalize="off" tabindex="1">
+            <div id="search-suggestions"></div>
+          </div>
+          <div class="search-button-wrapper hide">
+            <button class="btn btn-primary" type="submit" value="Search"></button>
+          </div>
+        </div> -->
+S
     <label><input id="search" type="text" size="60">Search</label>
 
     <ul class="results-list"></ul>
 
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
 
-
-
     <script type="text/template" data-template-name="gorilla-item">
+
       <div class="container">
         <div class="item">
           <div><img src="<% image %>" alt="thumbnail"></div>
