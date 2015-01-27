@@ -8,6 +8,8 @@
 
     var $list = $('.results-list'); // targets div with class gorilla in the html
 
+    var $search = $('.search');
+
     results.forEach(function(gorilla){
       var gorillaText = renderTemplate('gorilla-item', {
         name: gorilla.title,
